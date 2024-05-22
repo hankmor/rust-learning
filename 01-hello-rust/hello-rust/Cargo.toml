@@ -1,0 +1,8 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 依赖本地未发布的库 （crate）
+hello-lib = {path = "../hello-lib"}

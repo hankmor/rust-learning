@@ -4,6 +4,13 @@
 // 然后会在 target 目录下创建 release 目录
 // 3. cargo check 是我们在代码开发过程中最常用的命令，它的作用很简单：快速的检查一下代码能否编译通过。
 // 因此该命令速度会非常快，能节省大量的编译时间
+
+// 倒入模块使用 use 关键字
+use hello_lib::add;
+
 fn main() {
     println!("Hello, world!");
+    let r = add(1, 2);
+    // {} 为占位符
+    println!("1 + 2 = {}", r);
 }

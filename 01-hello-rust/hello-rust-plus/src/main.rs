@@ -23,6 +23,7 @@ fn greet_world() {
     }
 }
 
+// 一个较复杂的示例
 fn difficult() {
     let penguin_data = "\
    common name,length (cm)
