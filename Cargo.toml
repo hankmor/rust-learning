@@ -1,0 +1,8 @@
+[package]
+name = "rust-learning"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 用于 ASCII 艺术输出
+ferris-says = "0.2"

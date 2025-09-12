@@ -6,3 +6,8 @@ target
 logs
 *.log
 Cargo.lock
+
+
+# Added by cargo
+
+target
