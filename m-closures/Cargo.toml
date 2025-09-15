@@ -1,0 +1,7 @@
+[package]
+name = "m-closures"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Closures in Rust"

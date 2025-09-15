@@ -1,8 +1,32 @@
-[package]
-name = "rust-learning"
+[workspace]
+resolver = "2"
+members = [
+    "a-hello-world",
+    "b-vars-and-types", 
+    "c-functions",
+    "d-control-flow",
+    "e-ownership",
+    "f-structs",
+    "g-enums",
+    "h-collections",
+    "i-error-handling",
+    "j-generics",
+    "k-traits",
+    "l-lifetimes",
+    "m-closures",
+    "n-iterators",
+    "o-modules",
+    "p-crates",
+    "main"
+]
+
+[workspace.package]
 version = "0.1.0"
 edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+description = "Rust Learning Examples"
 
-[dependencies]
-# 用于 ASCII 艺术输出
+[workspace.dependencies]
+# 共享依赖
 ferris-says = "0.2"

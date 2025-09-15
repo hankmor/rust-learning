@@ -1,0 +1,26 @@
+[package]
+name = "main"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Main package that runs all Rust learning examples"
+
+[dependencies]
+# 依赖所有子包
+a-hello-world = { path = "../a-hello-world" }
+b-vars-and-types = { path = "../b-vars-and-types" }
+c-functions = { path = "../c-functions" }
+d-control-flow = { path = "../d-control-flow" }
+e-ownership = { path = "../e-ownership" }
+f-structs = { path = "../f-structs" }
+g-enums = { path = "../g-enums" }
+h-collections = { path = "../h-collections" }
+i-error-handling = { path = "../i-error-handling" }
+j-generics = { path = "../j-generics" }
+k-traits = { path = "../k-traits" }
+l-lifetimes = { path = "../l-lifetimes" }
+m-closures = { path = "../m-closures" }
+n-iterators = { path = "../n-iterators" }
+o-modules = { path = "../o-modules" }
+p-crates = { path = "../p-crates" }
