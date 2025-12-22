@@ -1,0 +1,9 @@
+[package]
+name = "ch11-modules"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Modules and Packages in Rust"
+
+[dependencies]
