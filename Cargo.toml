@@ -1,9 +1,9 @@
 [workspace]
 resolver = "2"
 members = [
-    "a-hello-world",
-    "b-vars-and-types", 
-    "c-functions",
+    "ch01-hello-world",
+    "ch02-vars", 
+    "ch03-functions",
     "d-control-flow",
     "e-ownership",
     "f-structs",

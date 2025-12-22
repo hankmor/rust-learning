@@ -8,9 +8,9 @@ description = "Main package that runs all Rust learning examples"
 
 [dependencies]
 # 依赖所有子包
-a-hello-world = { path = "../a-hello-world" }
-b-vars-and-types = { path = "../b-vars-and-types" }
-c-functions = { path = "../c-functions" }
+ch01-hello-world = { path = "../ch01-hello-world" }
+ch02-vars = { path = "../ch02-vars" }
+ch03-functions = { path = "../ch03-functions" }
 d-control-flow = { path = "../d-control-flow" }
 e-ownership = { path = "../e-ownership" }
 f-structs = { path = "../f-structs" }

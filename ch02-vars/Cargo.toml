@@ -1,0 +1,6 @@
+[package]
+name = "ch02-vars"
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Variables and types in Rust"
