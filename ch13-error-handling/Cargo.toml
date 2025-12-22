@@ -1,0 +1,9 @@
+[package]
+name = "ch13-error-handling"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Error handling in Rust"
+
+[dependencies]
