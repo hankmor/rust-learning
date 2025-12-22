@@ -1,5 +1,5 @@
 [package]
-name = "e-ownership"
+name = "ch05-ownership"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
