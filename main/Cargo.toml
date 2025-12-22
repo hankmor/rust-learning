@@ -11,7 +11,7 @@ description = "Main package that runs all Rust learning examples"
 ch01-hello-world = { path = "../ch01-hello-world" }
 ch02-vars = { path = "../ch02-vars" }
 ch03-functions = { path = "../ch03-functions" }
-d-control-flow = { path = "../d-control-flow" }
+ch04-control-flow = { path = "../ch04-control-flow" }
 e-ownership = { path = "../e-ownership" }
 f-structs = { path = "../f-structs" }
 g-enums = { path = "../g-enums" }

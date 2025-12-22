@@ -4,7 +4,7 @@ members = [
     "ch01-hello-world",
     "ch02-vars", 
     "ch03-functions",
-    "d-control-flow",
+    "ch04-control-flow",
     "e-ownership",
     "f-structs",
     "g-enums",
