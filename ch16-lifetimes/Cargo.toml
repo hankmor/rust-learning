@@ -1,0 +1,9 @@
+[package]
+name = "ch16-lifetimes"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Lifetimes in Rust"
+
+[dependencies]
