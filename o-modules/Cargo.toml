@@ -1,7 +1,0 @@
-[package]
-name = "o-modules"
-version.workspace = true
-edition.workspace = true
-authors.workspace = true
-license.workspace = true
-description = "Modules in Rust"
