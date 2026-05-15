@@ -2,7 +2,7 @@
 // #[macro_export] // 如果是一个库，需要加上这个注解才能被外部使用
 macro_rules! my_vec {
     // 模式匹配分支
-    ( $( $x:expr ),* ) => {
+    ( $( $x:expr ),* $(,)? ) => {
         {
             let mut temp_vec = Vec::new();
             $(
@@ -21,4 +21,7 @@ fn main() {
 
     let v2: Vec<&str> = my_vec!("Hello", "Macro");
     println!("v2 = {:?}", v2);
+
+    let v3: Vec<u32> = my_vec![4, 5, 6,];
+    println!("v3 = {:?}", v3);
 }
